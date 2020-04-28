@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5494de9df31f6edd17b0189718e0a301",
+    "content-hash": "2330b89ce0dd9543306cefcfe18e326f",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -460,16 +460,16 @@
         },
         {
             "name": "ivoglent/elastic-apm-agent-v2",
-            "version": "dev-upkeep/UpdateComposer",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/juliojmphjv/elastic-apm-agent-v2.git",
-                "reference": "6a4f3d807363b04e0972a286da746e4cd5e1f135"
+                "reference": "fc45107061b04b935a05670fecee86681a5e010f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/juliojmphjv/elastic-apm-agent-v2/zipball/6a4f3d807363b04e0972a286da746e4cd5e1f135",
-                "reference": "6a4f3d807363b04e0972a286da746e4cd5e1f135",
+                "url": "https://api.github.com/repos/juliojmphjv/elastic-apm-agent-v2/zipball/fc45107061b04b935a05670fecee86681a5e010f",
+                "reference": "fc45107061b04b935a05670fecee86681a5e010f",
                 "shasum": ""
             },
             "require": {
@@ -477,7 +477,7 @@
                 "ext-json": "*",
                 "guzzlehttp/guzzle": "6.*",
                 "php": ">= 7.1",
-                "ralouphie/getallheaders": "^2.0",
+                "ralouphie/getallheaders": "^2.0 || ^3.0",
                 "ramsey/uuid": "^3.7"
             },
             "require-dev": {
@@ -511,9 +511,9 @@
             ],
             "description": "A php agent for Elastic APM",
             "support": {
-                "source": "https://github.com/juliojmphjv/elastic-apm-agent-v2/tree/upkeep/UpdateComposer"
+                "source": "https://github.com/juliojmphjv/elastic-apm-agent-v2/tree/master"
             },
-            "time": "2020-04-28T20:02:12+00:00"
+            "time": "2020-04-28T20:56:10+00:00"
         },
         {
             "name": "paragonie/random_compat",
